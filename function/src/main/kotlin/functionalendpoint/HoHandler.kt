@@ -1,4 +1,4 @@
-package com.example.functionalendpoint
+package functionalendpoint
 
 import org.springframework.stereotype.Component
 import org.springframework.web.reactive.function.server.ServerRequest

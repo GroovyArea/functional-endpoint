@@ -1,11 +1,12 @@
-package com.example.functionalendpoint
+package com.annotation
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class FunctionalEndpointApplication
+class AnnotationApplication {
+}
 
 fun main(args: Array<String>) {
-    runApplication<FunctionalEndpointApplication>(*args)
+    runApplication<AnnotationApplication>(*args)
 }
